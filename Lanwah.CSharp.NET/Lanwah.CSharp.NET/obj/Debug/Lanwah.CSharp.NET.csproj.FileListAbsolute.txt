@@ -1,0 +1,4 @@
+D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET\bin\Debug\Lanwah.CSharp.NET.dll
+D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET\bin\Debug\Lanwah.CSharp.NET.pdb
+D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET\obj\Debug\Lanwah.CSharp.NET.dll
+D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET\obj\Debug\Lanwah.CSharp.NET.pdb
