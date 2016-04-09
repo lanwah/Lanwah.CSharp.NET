@@ -20,7 +20,7 @@ using System.Text;
 
 using System.Security.Cryptography;
 
-namespace Lanwah.CSharp.NET.SecurityLib.DES
+namespace Lanwah.CSharp.NET.SecurityLib
 {
     /// <summary>
     /// DES、TripleDES加密解密接口类
