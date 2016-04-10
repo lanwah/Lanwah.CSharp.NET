@@ -44,6 +44,8 @@
     <Compile Include="SecurityLib\CRC\CRC16.cs" />
     <Compile Include="SecurityLib\CRC\CRC32.cs" />
     <Compile Include="SecurityLib\CRC\CRC8.cs" />
+    <Compile Include="SecurityLib\DES\CryptoFactory.cs" />
+    <Compile Include="SecurityLib\DES\DES.cs" />
     <Compile Include="SecurityLib\DES\IDES.cs" />
     <Compile Include="SecurityLib\DES\TripleDES.cs" />
   </ItemGroup>
