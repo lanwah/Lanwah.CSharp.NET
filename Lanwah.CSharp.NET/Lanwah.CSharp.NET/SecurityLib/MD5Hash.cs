@@ -26,7 +26,7 @@ namespace Lanwah.CSharp.NET.SecurityLib
     /// <summary>
     /// MD5 Hash Code
     /// </summary>
-    public sealed partial class MD5Hash
+    public static partial class MD5Hash
     {
         /// <summary>
         /// 计算MD5哈希值（校验码）
