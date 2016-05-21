@@ -52,8 +52,10 @@
     <Compile Include="SecurityLib\DES\DES.cs" />
     <Compile Include="SecurityLib\DES\IDES.cs" />
     <Compile Include="SecurityLib\DES\TripleDES.cs" />
+    <Compile Include="SecurityLib\HighPrecisionTimer.cs" />
     <Compile Include="SecurityLib\MD5Hash.cs" />
     <Compile Include="SecurityLib\XMLSignature.cs" />
+    <Compile Include="Win32Lib\Kernel32.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CommonLib\ReadMe.txt" />
