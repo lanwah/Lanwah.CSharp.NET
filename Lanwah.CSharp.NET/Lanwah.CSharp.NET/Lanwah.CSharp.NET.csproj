@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonLib\BitConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityLib\CRC\CRC16.cs" />
     <Compile Include="SecurityLib\CRC\CRC32.cs" />
@@ -48,8 +50,10 @@
     <Compile Include="SecurityLib\DES\DES.cs" />
     <Compile Include="SecurityLib\DES\IDES.cs" />
     <Compile Include="SecurityLib\DES\TripleDES.cs" />
+    <Compile Include="SecurityLib\MD5Hash.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CommonLib\ReadMe.txt" />
     <Content Include="SecurityLib\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
