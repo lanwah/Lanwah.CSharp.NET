@@ -1,7 +1,0 @@
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\bin\Debug\Lanwah.CSharp.NET.Demo.exe
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\bin\Debug\Lanwah.CSharp.NET.Demo.pdb
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\bin\Debug\Lanwah.CSharp.NET.dll
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\bin\Debug\Lanwah.CSharp.NET.pdb
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\obj\x86\Debug\Lanwah.CSharp.NET.Demo.csprojResolveAssemblyReference.cache
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\obj\x86\Debug\Lanwah.CSharp.NET.Demo.exe
-D:\Program Files\Git\Lanwah.CSharp.NET\Lanwah.CSharp.NET\Lanwah.CSharp.NET.Demo\obj\x86\Debug\Lanwah.CSharp.NET.Demo.pdb
