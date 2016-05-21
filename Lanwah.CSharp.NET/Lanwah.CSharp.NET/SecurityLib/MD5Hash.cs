@@ -19,13 +19,14 @@ using System.Text;
 // ------------------------------------------------------------ //
 
 using System.Security.Cryptography;
+using System.IO;
 
 namespace Lanwah.CSharp.NET.SecurityLib
 {
     /// <summary>
     /// MD5 Hash Code
     /// </summary>
-    public sealed partial class MD5Hash
+    public static partial class MD5Hash
     {
         /// <summary>
         /// 计算MD5哈希值（校验码）
@@ -60,6 +61,26 @@ namespace Lanwah.CSharp.NET.SecurityLib
             // 计算哈希值
             MD5CryptoServiceProvider Provider = new MD5CryptoServiceProvider();
             return Provider.ComputeHash(stream);
+        }
+        /// <summary>
+        /// 计算MD5哈希值（校验码）
+        /// </summary>
+        /// <param name="filePath">需要计算MD5 Hash Code 的文件的完整路径（输入参数）</param>
+        /// <returns>返回16字节的哈希值（校验码）</returns>
+        public static byte[] MD5HashCode(string filePath)
+        {
+            // 参数检查
+            if (true == string.IsNullOrEmpty(filePath))
+            {
+                throw new ArgumentNullException("filePath");
+            }
+
+            // 计算哈希值
+            using (FileStream Stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+            {
+                MD5CryptoServiceProvider Provider = new MD5CryptoServiceProvider();
+                return Provider.ComputeHash(Stream);
+            }
         }
     }
 }
