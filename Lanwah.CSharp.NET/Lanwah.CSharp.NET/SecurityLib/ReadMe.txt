@@ -7,4 +7,8 @@
 3、MD5Hash MD5校验码；			
 4、XMLSignature XML数字签名；				
 5、HighPrecisionTimer 高性能计时器；					
-6、
+6、ServiceController Windows服务操作类；					
+7、ProcessControler 进程操作类；					
+8、ImageCode 图片验证码；			
+
+
