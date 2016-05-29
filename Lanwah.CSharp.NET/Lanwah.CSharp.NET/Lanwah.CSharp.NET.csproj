@@ -33,8 +33,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,12 +56,19 @@
     <Compile Include="SecurityLib\DES\DES.cs" />
     <Compile Include="SecurityLib\DES\IDES.cs" />
     <Compile Include="SecurityLib\DES\TripleDES.cs" />
+    <Compile Include="SecurityLib\HighPrecisionTimer.cs" />
+    <Compile Include="SecurityLib\ImageCode.cs" />
     <Compile Include="SecurityLib\MD5Hash.cs" />
+    <Compile Include="SecurityLib\ProcessControler.cs" />
+    <Compile Include="SecurityLib\ServiceHelper.cs" />
     <Compile Include="SecurityLib\XMLSignature.cs" />
+    <Compile Include="Win32Lib\Advapi32.cs" />
+    <Compile Include="Win32Lib\Kernel32.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CommonLib\ReadMe.txt" />
     <Content Include="SecurityLib\ReadMe.txt" />
+    <Content Include="Win32Lib\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
